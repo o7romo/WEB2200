@@ -1,0 +1,55 @@
+body{
+  font-family: futura-pt, sans-serif;
+  font-size: 22px;
+  background-color: #FEEDEB;
+  color: black;
+}
+
+
+
+a{
+  color: black;
+}
+
+#Info h1{
+  color:black;
+  font-family: futura-pt, sans-serif;
+  text-align: center;
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+#aboutMe{
+  border: solid white 0px;
+  padding: 150px;
+  margin: 80px;
+}
+
+#cat{
+  position: fixed;
+  width: 100px;
+  left: 0px;
+  bottom: 0px;
+}
+
+/* #lines{
+  width: 500px;
+  right: 500px;
+} */
+
+#topPage{
+  right: 50px;
+  bottom: -280px;
+  position: absolute;
+}
+
+#navBar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}

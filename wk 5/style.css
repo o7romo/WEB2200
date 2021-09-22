@@ -1,0 +1,58 @@
+body{
+  font-family: arial;
+  font-size: 2vw;
+  font-weight: 100;
+  /* border: solid rgb(100,100,100); */
+}
+
+p{
+  color: rgb(100,100,100)
+}
+
+#second{
+  font-weight: bold;
+}
+
+/* h1{
+  color: black !important;
+} */
+
+.grey{
+  color: rgb(100,100,100);
+}
+
+.background{
+  background-color: rgb(225,225,225);
+}
+
+p.background{
+  color: red;
+}
+
+span{
+  color: blue;
+  font-weight: bold;
+}
+
+#dashed{
+  border:dashed rgb(255,255,0) 2px;
+}
+
+#dotted{
+  border:dotted rgb(255,255,0) 2px;
+}
+
+#solid{
+  border:solid rgb(255,255,0) 2px;
+}
+
+#double{
+  border:double rgb(255,255,0) 2px;
+}
+
+#two{
+  border: solid black 1px;
+  background-color: grey;
+  padding:80px;
+  margin: 80px;
+}
