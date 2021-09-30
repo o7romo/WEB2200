@@ -24,6 +24,7 @@ a{
   border: solid white 0px;
   padding: 150px;
   margin: 80px;
+  position: absolute;
 }
 
 #cat{
@@ -33,10 +34,13 @@ a{
   bottom: 0px;
 }
 
-/* #lines{
-  width: 500px;
-  right: 500px;
-} */
+#lines{
+  width: 1700px;
+  /* margin: 100px; */
+  /* padding: -50px; */
+  height: 800px;
+
+}
 
 #topPage{
   right: 50px;
@@ -52,4 +56,10 @@ a{
   height: 100%;
   position: fixed;
   overflow: auto;
+}
+
+#navBar a:hover{
+  font-size: 120%;
+  color: #F2ACB7;
+
 }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Week 6</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qqg5pby.css">
+  </head>
+  <body>
+    <section id="sky">
+      <h1 id="skytext">Welcome to my site!</h1>
+      <img src="../assets/sky.jpg" alt="pic of sky" id="skyimg">
+    </section>
+
+    <section id="one">
+      <h2>This is my first section</h2>
+      <p>Lorem ipsum dolor sit amet, unum labores rationibus has ut, rationibus moderatius quo ne. Eum ea eligendi petentium sapientem, nisl salutatus liberavisse ex vim, partiendo definitiones sea ei. Et est unum platonem, mei an hinc expetenda. Eos quem malis quaestio cu, suas habemus ex nam. Pri solum iriure recusabo ex, his id dicam fabellas.
+      </p>
+    </section>
+
+    <section id="two">
+      <h2>This is my <a href="https://google.com"> AHH </a> second section</h2>
+      <p>Vim ne esse epicuri, nec dicunt utamur ut. Prima offendit voluptatum an eum, ei sea eligendi gubergren hendrerit, et nam vidit mucius. Mei ei simul lucilius, has ea eirmod recteque, cu sensibus postulant mea. No saperet epicurei nec. Sea ut nonumes antiopam referrentur. Te aliquando voluptatum vel, elit rebum senserit id est, pri quem mutat labitur ea. Per ornatus argumentum id.</p>
+    </section>
+
+    <section id="three">
+      <h2>This section contains a button</h2>
+      <button id="mybutton">Click</button>
+    </section>
+
+    <script type="text/javascript">
+      console.log("kokko")
+      document.getElementById("mybutton").addEventListener("click", buttonClicked)
+
+      function buttonClicked(){
+        alert("You pushed the button")
+        document.getElementById("skytext").innerHTML = "you are not welcome!";
+      }
+    </script>
+
+  </body>
+</html>

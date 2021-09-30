@@ -1,0 +1,68 @@
+p{
+  color: red;
+  font-family: helvetica;
+}
+
+h1,h2{
+  font-family: futura-pt;
+}
+
+#sky{
+  width: 100vw;
+  height: 60vh;
+  overflow: hidden;
+}
+
+#skyimg{
+  width: 100vw;
+  position: relative;
+  bottom: 0px;
+
+}
+
+#sky h1{
+  z-index: 1;
+  position: relative;
+  font-size: 5vw;
+  top: 40vh;
+  margin: 0 0 0 8vw;
+}
+
+#one, #two{
+  margin-left: 7vw;
+  margin-right: 3vw;
+  margin-top: 7vw;
+}
+
+button{
+  background-color: #ebbd34;
+  font-family: futura-pt;
+  font-size: 30px;
+  margin: 10px;
+  padding: 7px 100px;
+}
+
+button:active{
+  background-color: blue;
+  color: white;
+}
+
+button:hover{
+  border: solid black 3px;
+}
+
+a:link{
+  color:blue
+}
+
+a:active{
+  color: red;
+}
+
+a:visited{
+  color: lightgrey:
+}
+
+a:hover{
+  font-size: 200%;
+}
