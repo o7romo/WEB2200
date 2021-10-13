@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>week 7</title>
+    <link rel="stylesheet" href="quoteStyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans">
+    <link rel="stylesheet" href="https://use.typekit.net/qqg5pby.css">
+  </head>
+  <body>
+
+    <div class="pokemon">
+        <img alt="" src="pokeAssets/pokeball.png" id="imgClickAndChange" style= "width:40%" />
+
+        <div class="container">
+          <p id="pokemonName">Pokemon Generator</p>
+        </div>
+    </div>
+
+
+    <button id="newquote" type="button" name="button">Generate Pokemon</button>
+
+
+    <script type="text/javascript">
+      const quotes = ["eevee", "jirachi", "ampharos", "furret", "togedemaru"];
+
+      const pokeURL = ["pokeAssets/eevee.png","pokeAssets/jirachi.png","pokeAssets/ampharos.png", "pokeAssets/furret.png", "pokeAssets/Togedemaru.png"]
+
+      let quotecount = 0;
+
+      document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+      function buttonClicked()
+      {
+        console.log(quotes[quotecount]);
+        console.log(pokeURL[quotecount]);
+        // document.getElementById("qtext").innerHTML = quotes[quotecount];
+        document.getElementById("imgClickAndChange").src = pokeURL[quotecount];
+        document.getElementById("pokemonName").innerHTML = quotes[quotecount];
+
+        if(quotecount>3)
+        {
+          quotecount = 0;
+        }
+
+        else
+        {
+          quotecount += 1;
+        }
+      }
+
+    </script>
+  </body>
+</html>

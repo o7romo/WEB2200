@@ -1,0 +1,30 @@
+section{
+  background-color: blue;
+  margin: 30vh 20vw;
+  padding: 8vh 10vw 10vh 10vw;
+  border-radius: 8px;
+}
+
+button{
+  font-family: "Open Sans";
+  border-radius: 8px;
+  padding: 1vh 3vw;
+  float: right;
+  margin-top: 1vh;
+  background-color: black;
+  color: #eBeaed
+}
+
+button:hover{
+  border: #fff solid 1px;
+
+}
+
+button:active{
+  color: #c3c6c9
+}
+
+h1{
+  color: #eBeaed;
+  font-family: "EB Garamond";
+}
