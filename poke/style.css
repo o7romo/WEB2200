@@ -4,10 +4,38 @@ body{
   align-items: center;
   justify-content: center;
   font-family: futura-pt;
+  background-color: #FCEFF9;
 }
 
 h1{
   letter-spacing: 8px;
+}
+
+.tablinks {
+  background-color: #FFD2DF;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.tablinks {
+  transition-duration: 0.4s;
+}
+
+.tablinks:hover {
+  background-color: #FF91AF;
+  color: white;
+}
+
+.tablinks{
+  font-family: futura-pt;
 }
 
 .pokemonDiv{
@@ -90,6 +118,99 @@ h1{
   padding: 20px;
   text-align: center;
 }
+
+.pokemon .fighting{
+  background-color: #FDCF99;
+  border-radius: 20px;
+  box-shadow: 0 3px 22px #FDCF99;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.pokemon .psychic{
+  background-color: #FFE5FF;
+  border-radius: 20px;
+  box-shadow: 0 3px 22px #FFE5FF;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.pokemon .ice{
+  background-color: #F0FFFE;
+  border-radius: 20px;
+  box-shadow: 0 3px 22px #F0FFFE;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.pokemon .dragon{
+  background-color: #E2EDFF;
+  border-radius: 20px;
+  box-shadow: 0 3px 22px #E2EDFF;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.pokemon .ghost{
+  background-color: #A16F98;
+  border-radius: 20px;
+  box-shadow: 0 3px 22px #A16F98;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.pokemon .ground{
+  background-color: #DADDEB;
+  border-radius: 20px;
+  box-shadow: 0 3px 22px #DADDEB;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.pokemon .fairy{
+  background-color: #FCDFFF;
+  border-radius: 20px;
+  box-shadow: 0 3px 22px #FCDFFF;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.pokemon .dark{
+  background-color: #41393B;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 3px 22px #41393B;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.pokemon .steel{
+  background-color: #97747E;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 3px 22px #97747E;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.pokemon .flying{
+  background-color: #FFE5EC;
+  border-radius: 20px;
+  box-shadow: 0 3px 22px #FFE5EC;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
 
 
 

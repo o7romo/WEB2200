@@ -19,7 +19,7 @@
 body{
   font-family: futura-pt, sans-serif;
   font-size: 22px;
-  background-color: #FEEDEB;
+  background-color: #FFDCCD;
   color: black;
 }
 
@@ -65,19 +65,41 @@ a{
   bottom: -280px;
   position: absolute;
 }
+li{
+    display: inline
 
+
+  }
 #navBar{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 25%;
-  height: 100%;
+  width: 80%;
+  height: 90%;
+  text-align: center;
   position: fixed;
   overflow: auto;
+
+  float: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#navBar > li{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+#navBar a{
+  text-decoration: none;
 }
 
 #navBar a:hover{
+  transition-duration: 0.9s;
+
   font-size: 120%;
-  color: #F2ACB7;
+  color: #FFB08E;
 
 }
